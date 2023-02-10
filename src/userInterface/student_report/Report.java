@@ -1,4 +1,3 @@
-//report
 package userInterface.student_report;
 
 import java.awt.Font;

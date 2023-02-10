@@ -1,3 +1,4 @@
+//report
 package userInterface.student_report;
 
 import java.awt.Font;
@@ -53,7 +54,7 @@ public class Report {
 					passCount++;
 					remarks = "Pass";
 				}
-				model.addRow(new Object[]{studentId, moduleId, marks, remarks});
+				model.addRow(new Object[] { studentId, moduleId, marks, remarks });
 			}
 
 			JScrollPane scrollPane = new JScrollPane();
